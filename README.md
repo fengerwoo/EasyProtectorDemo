@@ -63,122 +63,118 @@ const easyProtector = uni.requireNativePlugin('easy-protector');
 ##### 使用EasyProtector插件
 
 ```javascript
-<script>
-	const easyProtector = uni.requireNativePlugin('easy-protector');
-	
-	export default {
-		data() {
-			return {
-				title: 'Hello',
-				out: "",
-			}
-		},
-		
-		onLoad() {
-			this.log("easyProtector exist" + JSON.stringify(easyProtector))
-		},
-		
-		methods: {
-			
-			checkByPrivateFilePath(){
-				let ret = easyProtector.checkByPrivateFilePath();
-				this.log("checkByPrivateFilePath：" + ret);
-			},
-			
-			checkByOriginApkPackageName(){
-				let ret = easyProtector.checkByOriginApkPackageName();
-				this.log("checkByOriginApkPackageName：" + ret);
-			},
-			
-			/**
+const easyProtector = uni.requireNativePlugin('easy-protector');
+
+export default {
+  data() {
+    return {
+      title: 'Hello',
+      out: "",
+    }
+  },
+
+  onLoad() {
+    this.log("easyProtector exist" + JSON.stringify(easyProtector))
+  },
+
+  methods: {
+
+    checkByPrivateFilePath(){
+      let ret = easyProtector.checkByPrivateFilePath();
+      this.log("checkByPrivateFilePath：" + ret);
+    },
+
+    checkByOriginApkPackageName(){
+      let ret = easyProtector.checkByOriginApkPackageName();
+      this.log("checkByOriginApkPackageName：" + ret);
+    },
+
+    /**
 			 * 运行被克隆的应用，该应用会加载多开应用的so库
 			 * 检测已经加载的so里是否包含这些应用的包名
 			 */
-			checkByMultiApkPackageName(){
-				let ret = easyProtector.checkByMultiApkPackageName();
-				this.log("checkByMultiApkPackageName：" + ret);
-			},
-			
-			 /**
+    checkByMultiApkPackageName(){
+      let ret = easyProtector.checkByMultiApkPackageName();
+      this.log("checkByMultiApkPackageName：" + ret);
+    },
+
+    /**
 			  * Android系统一个app一个uid
 			  * 如果同一uid下有两个进程对应的包名，在"/data/data"下有两个私有目录，则该应用被多开了
 			  */
-			checkByHasSameUid(){
-				let ret = easyProtector.checkByHasSameUid();
-				this.log("checkByHasSameUid：" + ret);
-			},
-			
-			/**
+    checkByHasSameUid(){
+      let ret = easyProtector.checkByHasSameUid();
+      this.log("checkByHasSameUid：" + ret);
+    },
+
+    /**
 			 * 端口监听，先扫一遍已开启的端口并连接，
 			 * 如果发现能通信且通信信息一致，
 			 * 则认为之前有一个相同的自己打开了（也就是被多开了）
 			 * 如果没有，则开启监听
 			 * 这个方法没有 checkByCreateLocalServerSocket 方法简单，不推荐使用
 			 */
-			checkByPortListening(){
-				easyProtector.checkByPortListening();
-				this.log("checkByPortListening：call");
-			},
-			
-			checkIsRunningInVirtualApk(){
-				let ret = easyProtector.checkIsRunningInVirtualApk();
-				this.log("checkIsRunningInVirtualApk：" + ret);
-			},
-			
-			checkIsRoot(){
-				let ret = easyProtector.checkIsRoot();
-				this.log("checkIsRoot：" + ret);
-			},
-			
-			checkIsDebug(){
-				let ret = easyProtector.checkIsDebug();
-				this.log("checkIsDebug：" + ret);
-			},
-			
-			checkIsUsbCharging(){
-				let ret = easyProtector.checkIsUsbCharging();
-				this.log("checkIsUsbCharging：" + ret);
-			},
-			
-			checkIsDebuggerConnected(){
-				let ret = easyProtector.checkIsDebuggerConnected();
-				this.log("checkIsDebuggerConnected：" + ret);
-			},
-			
-			checkIsBeingTracedByC(){
-				easyProtector.checkIsBeingTracedByC();
-				this.log("checkIsBeingTracedByC：call");
-			},
-			
-			/**
+    checkByPortListening(){
+      easyProtector.checkByPortListening();
+      this.log("checkByPortListening：call");
+    },
+
+    checkIsRunningInVirtualApk(){
+      let ret = easyProtector.checkIsRunningInVirtualApk();
+      this.log("checkIsRunningInVirtualApk：" + ret);
+    },
+
+    checkIsRoot(){
+      let ret = easyProtector.checkIsRoot();
+      this.log("checkIsRoot：" + ret);
+    },
+
+    checkIsDebug(){
+      let ret = easyProtector.checkIsDebug();
+      this.log("checkIsDebug：" + ret);
+    },
+
+    checkIsUsbCharging(){
+      let ret = easyProtector.checkIsUsbCharging();
+      this.log("checkIsUsbCharging：" + ret);
+    },
+
+    checkIsDebuggerConnected(){
+      let ret = easyProtector.checkIsDebuggerConnected();
+      this.log("checkIsDebuggerConnected：" + ret);
+    },
+
+    checkIsBeingTracedByC(){
+      easyProtector.checkIsBeingTracedByC();
+      this.log("checkIsBeingTracedByC：call");
+    },
+
+    /**
 			 * 检测Xposed是否存在
 			 */
-			checkIsXposedExist(){
-				let ret = easyProtector.checkIsXposedExist();
-				this.log("checkIsXposedExist：" + ret);
-			},
-			
-			/**
+    checkIsXposedExist(){
+      let ret = easyProtector.checkIsXposedExist();
+      this.log("checkIsXposedExist：" + ret);
+    },
+
+    /**
 			 * 检测模拟器环境
 			 * 
 			 * suspectCount 为嫌疑值，值越大模拟器的嫌疑越高
 			 */
-			checkIsRunningInEmulator(){
-				easyProtector.checkIsRunningInEmulator((ret)=>{
-					this.log("checkIsRunningInEmulator：" + ret);
-				});
-			},
-			
-			log(text){
-				let now = new Date();
-				let time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
-				this.out = (time+": "+text) +"\n\n"+ this.out;
-			},
-		}
-	}
-</script>
+    checkIsRunningInEmulator(){
+      easyProtector.checkIsRunningInEmulator((ret)=>{
+        this.log("checkIsRunningInEmulator：" + ret);
+      });
+    },
 
-
+    log(text){
+      let now = new Date();
+      let time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+      this.out = (time+": "+text) +"\n\n"+ this.out;
+    },
+  }
+}
 ```
 
 
