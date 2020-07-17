@@ -1,6 +1,6 @@
 > 本插件基于知名开源Android检测刷子党库EasyProtector封装
 
-EasyProtector Github地址：https://github.com/lamster2018/EasyProtector
+EasyProtector Github地址：[https://github.com/lamster2018/EasyProtector](https://github.com/lamster2018/EasyProtector)
 
 
 
@@ -8,11 +8,13 @@ EasyProtector Github地址：https://github.com/lamster2018/EasyProtector
 
 安装Demo的Apk，快速体验检测能力
 
-链接下载：https://github.com/fengerwoo/EasyProtectorDemo/raw/master/unpackage/debug/android_debug.apk
+链接下载：[https://github.com/fengerwoo/EasyProtectorDemo/raw/master/unpackage/debug/android_debug.apk](https://github.com/fengerwoo/EasyProtectorDemo/raw/master/unpackage/debug/android_debug.apk)
+
+
 
 扫码下载
 
-![扫码下载](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggtswj3610j30b40b4jrj.jpg'扫码下载')
+![扫码下载](https://s1.ax1x.com/2020/07/17/Us4CIe.png '扫码下载')
 
 
 
@@ -181,7 +183,7 @@ export default {
 
 ##### 完整Demo下载
 
-Github地址：https://github.com/fengerwoo/EasyProtectorDemo
+Github地址：[https://github.com/fengerwoo/EasyProtectorDemo](https://github.com/fengerwoo/EasyProtectorDemo)
 
 
 
