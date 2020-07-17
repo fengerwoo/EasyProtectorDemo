@@ -88,7 +88,7 @@
             }
         },
         "nativePlugins" : {
-            "EasyProtector" : {
+            "easy-protector" : {
                 "__plugin_info__" : {
                     "name" : "EasyProtector",
                     "description" : "检测运行环境是否是模拟器、root、多开、Xposed等等十多项功能。常见应用场景：防止羊毛党、刷子",
