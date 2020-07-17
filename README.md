@@ -193,4 +193,4 @@ Github地址：[https://github.com/fengerwoo/EasyProtectorDemo](https://github.c
 
 
 
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggttzj6g2kj30fo0fqdhs.jpg" style="width:200px;" />
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggttzj6g2kj30fo0fqdhs.jpg" style="max-width:200px;" />
