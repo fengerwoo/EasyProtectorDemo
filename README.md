@@ -54,6 +54,9 @@ manifest.json -> App原生插件配置 ->云端插件 选择EasyProtector
 
 
 ##### 导入EasyProtector插件
+```javascript
+const easyProtector = uni.requireNativePlugin('easy-protector');
+```
 
 
 
