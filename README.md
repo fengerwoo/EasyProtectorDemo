@@ -90,30 +90,30 @@ export default {
     },
 
     /**
-			 * 运行被克隆的应用，该应用会加载多开应用的so库
-			 * 检测已经加载的so里是否包含这些应用的包名
-			 */
+	 * 运行被克隆的应用，该应用会加载多开应用的so库
+	 * 检测已经加载的so里是否包含这些应用的包名
+	 */
     checkByMultiApkPackageName(){
       let ret = easyProtector.checkByMultiApkPackageName();
       this.log("checkByMultiApkPackageName：" + ret);
     },
 
     /**
-			  * Android系统一个app一个uid
-			  * 如果同一uid下有两个进程对应的包名，在"/data/data"下有两个私有目录，则该应用被多开了
-			  */
+	  * Android系统一个app一个uid
+	  * 如果同一uid下有两个进程对应的包名，在"/data/data"下有两个私有目录，则该应用被多开了
+	  */
     checkByHasSameUid(){
       let ret = easyProtector.checkByHasSameUid();
       this.log("checkByHasSameUid：" + ret);
     },
 
     /**
-			 * 端口监听，先扫一遍已开启的端口并连接，
-			 * 如果发现能通信且通信信息一致，
-			 * 则认为之前有一个相同的自己打开了（也就是被多开了）
-			 * 如果没有，则开启监听
-			 * 这个方法没有 checkByCreateLocalServerSocket 方法简单，不推荐使用
-			 */
+	 * 端口监听，先扫一遍已开启的端口并连接，
+	 * 如果发现能通信且通信信息一致，
+	 * 则认为之前有一个相同的自己打开了（也就是被多开了）
+	 * 如果没有，则开启监听
+	 * 这个方法没有 checkByCreateLocalServerSocket 方法简单，不推荐使用
+	 */
     checkByPortListening(){
       easyProtector.checkByPortListening();
       this.log("checkByPortListening：call");
@@ -150,18 +150,18 @@ export default {
     },
 
     /**
-			 * 检测Xposed是否存在
-			 */
+	 * 检测Xposed是否存在
+	 */
     checkIsXposedExist(){
       let ret = easyProtector.checkIsXposedExist();
       this.log("checkIsXposedExist：" + ret);
     },
 
     /**
-			 * 检测模拟器环境
-			 * 
-			 * suspectCount 为嫌疑值，值越大模拟器的嫌疑越高
-			 */
+	 * 检测模拟器环境
+	 * 
+	 * suspectCount 为嫌疑值，值越大模拟器的嫌疑越高
+	 */
     checkIsRunningInEmulator(){
       easyProtector.checkIsRunningInEmulator((ret)=>{
         this.log("checkIsRunningInEmulator：" + ret);
