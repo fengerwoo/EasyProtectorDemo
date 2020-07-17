@@ -2,7 +2,7 @@
 	"name":"EasyProtector",
 	"id": "EasyProtector",
 	"version": "1.0.0",
-	"description": "检测运行环境是否是模拟器、root、多开、Xposed等等十多项功能。常见应用场景：防止羊毛党、刷子，微信交流群加好友：QFR_BZ，备注：EasyProtector交流",
+	"description": "检测运行环境是否是模拟器、root、多开、Xposed等等十多项功能。常见应用场景：防止羊毛党、刷子",
 	"_dp_type": "nativeplugin",
 	"_dp_nativeplugin": {
 		"android": {

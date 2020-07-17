@@ -183,3 +183,12 @@ export default {
 
 Github地址：https://github.com/fengerwoo/EasyProtectorDemo
 
+
+
+##### 加入交流群
+
+扫码加我微信加入微信交流群
+
+
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggttzj6g2kj30fo0fqdhs.jpg" style="zoom:33%;" />
