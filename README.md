@@ -18,7 +18,7 @@ EasyProtector Github地址：[https://github.com/lamster2018/EasyProtector](http
 
 
 
-拥有羊毛党、模拟器、是否root、Xposed、多开环境等等十多项检测能力
+拥有羊毛党、模拟器、是否root、Xposed、多开环境等等十多项检测能力💨🚀
 
 方法快速一览
 - checkByPrivateFilePath
@@ -194,3 +194,12 @@ Github地址：[https://github.com/fengerwoo/EasyProtectorDemo](https://github.c
 
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ggttzj6g2kj30fo0fqdhs.jpg" style="max-width:200px;" />
+
+
+
+
+
+##### 🤗 🤗 🤗 如果对您有帮助，请右上角Star | 点赞
+
+
+
