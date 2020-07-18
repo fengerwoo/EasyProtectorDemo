@@ -8,11 +8,11 @@ EasyProtector Github地址：[https://github.com/lamster2018/EasyProtector](http
 
 安装Demo的Apk，快速体验检测能力
 
-链接下载：[点我下载安装Demo Apk](http://jfqtest.oss-cn-qingdao.aliyuncs.com/%E8%BF%87%E5%8C%85%E6%96%87%E4%BB%B6%E5%BA%93%2Fcrm_waibu%2Fandroid_debug.apk)
+链接下载：[点我下载安装Demo Apk](http://ossdafuhao.oss-cn-shanghai.aliyuncs.com/ZM%2Fandroid_debug.apk)
 
 扫码下载
 
-![扫码下载](https://user-gold-cdn.xitu.io/2020/7/18/173616e1836e0411?w=400&h=400&f=png&s=9423 '扫码下载')
+![扫码下载](https://user-gold-cdn.xitu.io/2020/7/18/1736174893e5f143?w=400&h=400&f=png&s=9037 '扫码下载')
 
 
 
