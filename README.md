@@ -47,9 +47,9 @@ EasyProtector Github地址：[https://github.com/lamster2018/EasyProtector](http
 
 ##### 安装原生插件
 
-点击右侧使用HbuilderX 导入插件按钮，然后导入到自己想要使用的项目
+点击插件详情网页，购买(0元) for 云打包按钮，然后导入到自己想要使用的项目
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ggtt6jxkwqj30gk034q31.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggv9de868mj30gu03i0su.jpg)
 
 manifest.json -> App原生插件配置 ->云端插件 选择EasyProtector
 
