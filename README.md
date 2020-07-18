@@ -189,7 +189,7 @@ Github地址：[https://github.com/fengerwoo/EasyProtectorDemo](https://github.c
 
 ##### 加入交流群
 
-扫码加我微信加入微信交流群
+扫码加我微信加入微信交流群（请备注：羊毛党检测Uni插件）
 
 
 
