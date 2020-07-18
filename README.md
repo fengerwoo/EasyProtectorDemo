@@ -199,7 +199,7 @@ Github地址：[https://github.com/fengerwoo/EasyProtectorDemo](https://github.c
 
 <br/><br/><br/>
 
-##### 🤗 🤗 🤗 如果对您有帮助，请在本项目右上角、[EasyProtector](https://github.com/lamster2018/EasyProtector)  进行Star|点赞
+##### 🤗 🤗 🤗 如果对您有帮助，请在本Uni插件右上角、[EasyProtector源库](https://github.com/lamster2018/EasyProtector)  进行Star|点赞
 
 <br/><br/><br/>
 
