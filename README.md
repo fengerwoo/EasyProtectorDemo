@@ -14,7 +14,7 @@ EasyProtector Github地址：[https://github.com/lamster2018/EasyProtector](http
 
 扫码下载
 
-![扫码下载](http://yanxuan.nosdn.127.net/f71fdd4d7ddc2ea3be13118b24f76990.png '扫码下载')
+![扫码下载](https://user-gold-cdn.xitu.io/2020/7/18/173612efbd5959cd?w=400&h=400&f=png&s=15960 '扫码下载')
 
 
 
